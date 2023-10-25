@@ -16,6 +16,8 @@
 		93E939F02AC9DEEF00546B53 /* TestSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E939EF2AC9DEEF00546B53 /* TestSwiftUITests.swift */; };
 		93E939FA2AC9DEEF00546B53 /* TestSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E939F92AC9DEEF00546B53 /* TestSwiftUIUITests.swift */; };
 		93E939FC2AC9DEEF00546B53 /* TestSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E939FB2AC9DEEF00546B53 /* TestSwiftUIUITestsLaunchTests.swift */; };
+		93E93A092AC9E38800546B53 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E93A082AC9E38800546B53 /* ListView.swift */; };
+		93E93A0B2AC9EA5B00546B53 /* ScrollView+LazyVstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E93A0A2AC9EA5B00546B53 /* ScrollView+LazyVstack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		93E939F52AC9DEEF00546B53 /* TestSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E939F92AC9DEEF00546B53 /* TestSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUIUITests.swift; sourceTree = "<group>"; };
 		93E939FB2AC9DEEF00546B53 /* TestSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93E93A082AC9E38800546B53 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		93E93A0A2AC9EA5B00546B53 /* ScrollView+LazyVstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollView+LazyVstack.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			children = (
 				93E939D92AC9DEEE00546B53 /* TestSwiftUIApp.swift */,
 				93E939DB2AC9DEEE00546B53 /* ContentView.swift */,
+				93E93A0A2AC9EA5B00546B53 /* ScrollView+LazyVstack.swift */,
+				93E93A082AC9E38800546B53 /* ListView.swift */,
 				93E939DD2AC9DEEF00546B53 /* Assets.xcassets */,
 				93E939E22AC9DEEF00546B53 /* Persistence.swift */,
 				93E939E42AC9DEEF00546B53 /* TestSwiftUI.xcdatamodeld */,
@@ -264,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E939E32AC9DEEF00546B53 /* Persistence.swift in Sources */,
+				93E93A0B2AC9EA5B00546B53 /* ScrollView+LazyVstack.swift in Sources */,
 				93E939DC2AC9DEEE00546B53 /* ContentView.swift in Sources */,
+				93E93A092AC9E38800546B53 /* ListView.swift in Sources */,
 				93E939DA2AC9DEEE00546B53 /* TestSwiftUIApp.swift in Sources */,
 				93E939E62AC9DEEF00546B53 /* TestSwiftUI.xcdatamodeld in Sources */,
 			);
